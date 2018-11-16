@@ -2,7 +2,7 @@ class Student
   attr_accessor :name, :grade
   attr_reader :id
   
-  def student(id=nil, name, grade)
+  def student(name, grade, id=nil)
     @id = some_id
     @name = name
     @grade = grade
